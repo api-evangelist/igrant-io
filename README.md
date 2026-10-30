@@ -64,5 +64,124 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-iGrant.io is a company surfaced via the API Evangelist harvest backlog (source: stockholm-trip) and added to the network as a stub for full-pipeline profiling.
-- https://igrant.io/
+iGrant.io provides EU Digital Identity and Business Wallet software, offering a suite of data wallet, data verifier, data pod, and consent management solutions. Built to be eIDAS 2.0‑ready and ISO27001 certified, the platform enables secure, user‑centric authentication and cross‑border data exchange for regulated industries. It supplies APIs for issuers, holders, verifiers, webhooks, and key management, supporting developers with sandbox environments and comprehensive documentation.
+
+**Areas:** Company · Identity · Wallets · eIDAS
+
+## iGrant.io on APIs.io
+
+Everything profiled for iGrant.io is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/igrant-io/](https://apis.io/providers/igrant-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [iGrant.io Config API](https://apis.io/apis/igrant-io/igrant-io-config-api/) — The Config API from iGrant.io — 8 operation(s) for config.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Igrant Io Webhooks](https://apis.io/asyncapis/igrant-io/igrant-io-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV2ConfigWebhooksWebhookidDeliveriesResponse](https://apis.io/schemas/igrant-io/igrant-io-get-v2-config-webhooks-webhookid-deliveries-response/)
+- [GetV2ConfigWebhooksWebhookidDeliveryDeliveryidResponse](https://apis.io/schemas/igrant-io/igrant-io-get-v2-config-webhooks-webhookid-delivery-deliveryid-response/)
+- [PostV2ConfigWebhookRequest](https://apis.io/schemas/igrant-io/igrant-io-post-v2-config-webhook-request/)
+- [PostV2ConfigWebhookResponse](https://apis.io/schemas/igrant-io/igrant-io-post-v2-config-webhook-response/)
+- [PutV2ConfigWebhookWebhookidRequest](https://apis.io/schemas/igrant-io/igrant-io-put-v2-config-webhook-webhookid-request/)
+- [PutV2ConfigWebhookWebhookidResponse](https://apis.io/schemas/igrant-io/igrant-io-put-v2-config-webhook-webhookid-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Igrant Io Context](https://apis.io/jsonld/igrant-io/igrant-io-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [iGrant.io API Rules](https://apis.io/rules/igrant-io/igrant-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Igrant Io Authentication](https://apis.io/security/igrant-io/igrant-io-authentication/)
+- [Igrant Io Domain Security](https://apis.io/security/igrant-io/igrant-io-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://igrant.io/)
+- [Documentation](https://docs.igrant.io/)
+- [Getting started](https://docs.igrant.io/docs/get-started/)
+- [API reference](https://docs.igrant.io/docs/developer-apis/)
+- [Support](https://support.igrant.io/)
+- [Changelog](https://docs.igrant.io/docs/changelog/2026-q3/)
+- [Blog](https://igrant.io/news.html)
+- [Terms of service](https://igrant.io/terms.html)
+- [Privacy policy](https://igrant.io/privacy.html)
+- [GitHub](https://github.com/L3-iGrant)
+
+## API Evangelist rating
+
+**Kin Score 40.9** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 35.7 |
+| Contract governance | 35.6 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 71.4 |
+| Access clarity | 21.1 |
+
+**Agent readiness 21.5** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/igrant-io/](https://apis.io/providers/igrant-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for iGrant.io: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/igrant-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
